@@ -1,10 +1,10 @@
 # VehicleAdmin
 
-A simple vehicle selling application. [Demo](https://vehicle-demo-para.herokuapp.com/)
+A simple vehicle selling application. 
 
 Admins should be able to insert, update, delete, search vehicles
 
-Anyone should be able to search and view details of vehicles. [ClientPotral](https://vehicle-demo-para.herokuapp.com/client)
+Anyone should be able to search and view details of vehicles.
 
 A login should be there for Admins.
 It Contain two (microservice) component:
@@ -13,8 +13,7 @@ It Contain two (microservice) component:
 
 
 ## Admin Vehicle
- [Demo](https://vehicle-demo-para.herokuapp.com/)
- ```
+
 username : Admin
 password: admin
 ```
@@ -32,19 +31,6 @@ Access:
 localhost:3000/vehicle
 ```
 
-### Run Remote Mode:
-```
-Build:
-webpack
-
-Push to Server:
-git push heroku master
-
-Access Api:
-https://vehicle-demo-para1.herokuapp.com/
-```
-
-Api Documents:
 
 
 ## Admin FrontEnd:
@@ -58,15 +44,4 @@ Access:
 localhost:4200/
 ```
 
-### Run Remote Mode:
-```
-Build:
-ng build
-
-Push to Server:
-git push heroku master
-
-Access:
-https://vehicle-demo-para.herokuapp.com/
-```
 
